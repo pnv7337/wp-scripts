@@ -20,7 +20,7 @@ $old_url = trim(fgets(STDIN));
 echo "New URL (ví dụ: https://new-domain.com): ";
 $new_url = trim(fgets(STDIN));
 
-echo "Database Host (ví dụ: localhost hoặc 171.244.15.42:3306): ";
+echo "Database Host (ví dụ: localhost:3306 hoặc Internal Host): ";
 $db_host = trim(fgets(STDIN));
 if (empty($db_host)) $db_host = 'localhost';
 
